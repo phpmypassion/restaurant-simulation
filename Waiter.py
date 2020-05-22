@@ -17,7 +17,11 @@ class Waiter(object):
 
     def printDinerStatuses(self, time):
         for value, key in enumerate(self.__diners):
-            print("Diner", self.__diners[value].name, " is fully", self.__diners[value].status, ' at:', time)
+            print("Diner", self.__diners[value].name, " is", self.__diners[value].status, ' at:', time)
+            if key.status == "order_served":
+                print("***************************************************\n\n\n")
+            if key.status == "order_placed":
+                print("###################################################\n\n\n");
 
     def takeOrders(self):
         for value, key in enumerate(self.__diners):

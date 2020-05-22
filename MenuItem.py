@@ -11,7 +11,7 @@ class MenuItem(object):
 
     # more format tricks: https://pyformat.info/
     def __str__(self):
-        return '{p.name} ({p.type}) Num.of.Chefs Available({p.chefs}): {p.time} min\n{p.description}'.format(p=self)
+        return '{p.name} ({p.type}) Num.of.Chefs Available({p.chefs}) Time Takes: {p.time} min\n{p.description}'.format(p=self)
 
     __repr__ = __str__
 
