@@ -8,6 +8,13 @@
 
 ## Part 1 – Creating the Restaurant’s Menu 
 
+### menu.csv
+-	Goal: This CSV file has all restaurant’s menu items. It has four coloumn described as below.
+	*col1: Items Name
+	*col2: Types of Item (Veg/Non-veg/Drinks/Snacks)
+	*col3: Time Takes for Cooking.
+	*col4: No. of Chefs Available Per Item
+
 ### MenuItem.py
 -	Goal: This class will represent a single item that a diner can order from the restaurant’s menu
 
